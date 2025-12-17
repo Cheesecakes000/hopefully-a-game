@@ -2,6 +2,9 @@
 #define DISPLAY
 #include <SFML/Graphics.hpp>
 
-void open_window();
+// Declarations here duh
+sf::RectangleShape spawnPlayer();
+
+void controlPlayer(sf::RectangleShape &player);
 
 #endif 
